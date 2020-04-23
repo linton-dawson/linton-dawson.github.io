@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Pushkar Kukde</title>
+        <link>http://example.org/posts/</link>
+        <description>Recent content in Posts on Pushkar Kukde</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Thu, 23 Apr 2020 21:01:20 +0530</lastBuildDate>
+        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>The very basics of constexpr</title>
+            <link>http://example.org/posts/constuse/</link>
+            <pubDate>Thu, 23 Apr 2020 21:01:20 +0530</pubDate>
+            
+            <guid>http://example.org/posts/constuse/</guid>
+            <description>Introduction to constexpr C++11 introduced the concept of constexpr, which to put it broadly, does stuff that is &amp;ldquo;constexpr-ed&amp;rdquo; at compile time.
+Simply put, a constexpr object declaration indirectly means it is declared as const, whereas a constexpr function declaration means it is implicitly declared inline( functions which replace the function call with the function code, thus saving overhead.).
+constexpr saves a ton of runtime and since they act in compile time are implicitly thread safe.</description>
+            <content type="html"><![CDATA[<h2 id="introduction-to-constexpr">Introduction to constexpr</h2>
+<p>C++11 introduced the concept of constexpr, which to put it broadly, does stuff that is &ldquo;constexpr-ed&rdquo; at compile time.</p>
+<p>Simply put, a constexpr object declaration indirectly means it is declared as const, whereas a constexpr function declaration means it is implicitly declared inline( functions which replace the function call with the function code, thus saving overhead.).</p>
+<p>constexpr saves a ton of runtime and since they act in compile time are implicitly thread safe.</p>
+<p>A confusion I had was the difference between constexpr and const. A const keyoword specifies that a particular object or variable is unmodifiable, which is a subset of constexpr behaviour.</p>
+<p>Over the years, the newer versions of C++ standard have added a steady flux of constexpr compatibility and features.</p>
+<p>For example, in C++11 constexpr functions were only allowed one return statement, whereas from C++14, multiple return statements were allowed.</p>
+<h2 id="why-constexpr-">Why constexpr ?</h2>
+<ul>
+<li>Saves a lot of runtime.</li>
+<li>Are implicitly thread-safe.</li>
+<li>Can be constructed in read-only memory.</li>
+</ul>
+<h2 id="how-to-constexpr-">How to constexpr ?</h2>
+<p>The basic use is prety simple, just use the constexpr keyword before any function or variable declaration.</p>
+<p>It is important to note that all object declarations inside a constexpr function must be initialized.</p>
+<p>Also, a constexpr function can only call other constexpr functions and not runtime ones (which is obvious).</p>
+<p><code>constexpr int foo = 42</code> is the same as <code>int constexpr foo = 42</code></p>
+<h2 id="c20-newer-constexpr-features">C++20 newer constexpr features</h2>
+<ul>
+<li>constexpr virtual functions.</li>
+<li>constexpr union, try and catch, dynamic_cast, typeid and std::pointer_traits.</li>
+<li>constexpr additions.</li>
+<li>std::string and std:: vector have been constexpr-ed.</li>
+<li>constexpr <!-- raw HTML omitted --> library algorithms.</li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
