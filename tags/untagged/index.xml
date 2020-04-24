@@ -18,7 +18,7 @@
       <pubDate>Thu, 23 Apr 2020 21:01:20 +0530</pubDate>
       
       <guid>http://linton-dawson.github.io/posts/constuse/</guid>
-      <description>Introduction to constexpr C++11 introduced the concept of constexpr, which to put it broadly, does stuff that is &amp;ldquo;constexpr-ed&amp;rdquo; at compile time.
+      <description>Introduction to constexpr C++11 introduced the concept of constexpr, which to put it broadly, evaluates functions and objects at compile time.
 Simply put, a constexpr object declaration indirectly means it is declared as const, whereas a constexpr function declaration means it is implicitly declared inline( functions which replace the function call with the function code, thus saving overhead.).
 constexpr saves a ton of runtime and since they act in compile time are implicitly thread safe.</description>
     </item>
