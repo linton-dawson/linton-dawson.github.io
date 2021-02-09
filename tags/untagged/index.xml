@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 23 Apr 2020 21:01:20 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2021 01:44:51 +0530</lastBuildDate>
     
 	<atom:link href="http://linton-dawson.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The very basics of Flask User</title>
+      <link>http://linton-dawson.github.io/posts/flask_user/</link>
+      <pubDate>Sun, 31 Jan 2021 01:44:51 +0530</pubDate>
+      
+      <guid>http://linton-dawson.github.io/posts/flask_user/</guid>
+      <description>Introduction to Flask Before we delve into Flask-User, let&amp;rsquo;s get to know a bit about the Flask (micro)framework. Developing static as well as dynamic web apps in Python is not a newfangled concept. There have existed several frameworks right from Zope(1998), CherryPy(2002), Django(2005), web2py(2007), Tornado(2009) and lots more. Django and Flask have undoubtedly been the leading frameworks since the past couple of years. There is a constant barrage of questions and comparisons to determine which among them is the &amp;ldquo;superior&amp;rdquo; framework.</description>
+    </item>
     
     <item>
       <title>The very basics of constexpr</title>
